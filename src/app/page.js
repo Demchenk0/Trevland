@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import Location from '../components/Location/Location'
+import Blog from './../components/Blog/Blog';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <main >
      <Hero/>
      <Location/>
+     <Blog/>
     </main>
     </>
   )
