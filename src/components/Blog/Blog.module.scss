@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 230px;
+    padding: 142px 230px;
     margin: 0 auto;
     color: #ccd6f6;
 }
@@ -29,7 +29,6 @@
     line-height: 140%; /* 60.2px */
 }
 .text {
-    width: 470px ;
     color: #000;
     font-family: Roboto;
     font-size: 18px;
@@ -37,18 +36,78 @@
     font-weight: 400;
     line-height: 160%; /* 28.8px */
 opacity: 0.6;
+overflow: hidden;
 }
 .list {
     display: flex;
     gap: 30px;
 }
+// .list {
+//     display: grid;
+
+//     grid-template-columns: 150px 150px;
+//     grid-template-rows: 100px auto;
+  
+//     grid-gap: 10px 15px;
+// }
+// .grid1{
+//     grid-column: 1 / -1;  grid-row: 1 / 2;
+// }
+// .grid2{
+//     grid-column: 2 / -1;  grid-row: 2 / -2;
+// }
+// .grid3{
+//     grid-column: 2 / -1;  grid-row: 2 / -1;
+// }
+// .grid4{
+//     grid-column: 2 / -1;  grid-row: 2 / 0;
+// }
+.grid1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.grid1>p{
+    width: 470px;
+    color: #000;
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+.grid1>span{
+    color: #000;
+
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 30px */
+}
+.grid2{
+    display: flex;
+    max-width: 550px;
+}
 .boxTcard{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     gap: 10px;
-    width: 50%;
+    padding: 0 27px;
+}
+.boxTcard>span{
+    color: #000;
+
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
 }
 .title1{
     color: #000;
@@ -62,4 +121,5 @@ line-height: 150%; /* 36px */
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 30px;
 }
